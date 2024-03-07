@@ -16,7 +16,11 @@ Note: The CUDA Version needs to be 11.7 to ensure compatibility and functionalit
 ```
 $ conda create -n llm4correct python=3.8
 $ conda activate llm4correct
+
+This step may take several minutes: 
 $ conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
+
+
 $ bash install_library.sh
 ```
 
