@@ -14,7 +14,7 @@ As the guthub has limititation on the file sizes, we use the zenodo to save the 
 ```
 $ conda create -n llm4correct python=3.8
 $ conda activate llm4correct
-$ bash bash install_library.sh
+$ bash install_library.sh
 ```
 
 
