@@ -5,8 +5,8 @@ As the guthub has limititation on the file sizes, we use the zenodo to save the 
 
 
 ## Pre-requirement
-1. Python3.7+
-2. CUDA 10.2
+1. Python3.8+
+2. CUDA Version: 11.7
 3. Conda 
 
 ## Python Library Installation
