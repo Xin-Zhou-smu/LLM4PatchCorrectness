@@ -1,24 +1,17 @@
 # LLM4PatchCorrectness
 
 
-
-
-
 ## Pre-requirement
 1. Python3.10+
-2. CUDA Version: 12+
+2. CUDA Version: 12.2
 3. Conda 
 
 
 ## Python Library Installation
 
 ```
-$ conda create -n llm4correct python=3.8
+$ conda create -n llm4correct python=3.10
 $ conda activate llm4correct
-
-This step may take several minutes: 
-$ conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
-
 $ bash install_library.sh
 ```
 
