@@ -1,15 +1,14 @@
 # LLM4PatchCorrectness
 
 
-As the guthub has limititation on the file sizes, we use the zenodo to save the whole replication package. Please check this link (https://zenodo.org/record/7339088#.Y3oBonZBzIU) to download the complete repo.
+
 
 
 ## Pre-requirement
-1. Python3.8+
-2. CUDA Version: 11.7
+1. Python3.10+
+2. CUDA Version: 12+
 3. Conda 
 
-Note: The CUDA Version needs to be 11.7 to ensure compatibility and functionality.
 
 ## Python Library Installation
 
@@ -22,6 +21,10 @@ $ conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cud
 
 $ bash install_library.sh
 ```
+
+## Download the pre-trained model
+
+Please check this link (https://drive.google.com/drive/folders/1MryWp2iqXAVo4UHxnN-bTspQkysM7Fpy?usp=sharing) to download the model.
 
 
 ## In-context learning Inference
@@ -46,12 +49,13 @@ Notes:
 After finishing all inferences, you can run this Python file to read the results for each APR tool:
 
 ```
-$ python read_results.py
+$ python read_results_enhanced.py
 ```
 
-Notes:
-1. Need to revise the path to the '--out_dir' in the last step
-
+## To train the CL model
+```
+cd  cl_pretrain
+```
 
 
 
